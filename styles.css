@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fraunces-light {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.fraunces-italic {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.fraunces-normal {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.fraunces-bold {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.fraunces-black {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#text-stuff {
+    padding: 3rem;
+    min-width: 20vw;
+}
+
+header {
+    text-align: center;
+    font-family: 'fraunces-black';
+    font-weight: 700;
+    font-size: 1.5rem;;
+}
+
+#image-container {
+    position: relative
+}
+
+#image {
+    
+    height: 100vh;
+    width: auto ;
+}
+
+#image-caption {
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    color: #353535;
+    text-decoration: none;
+    font-family: 'fraunces-normal' ;
+}
+
+#image-caption a  {
+    color: #353;
+
+}
