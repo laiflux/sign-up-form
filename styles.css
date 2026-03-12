@@ -74,12 +74,12 @@ body {
 }
 button {
     margin-top: 5vh;
-    color: #6c9ca8;
+    color: #5f99a6;
     font-size: 2rem;
     font-family: "fraunces", serif;
     border-radius: 15px;
     padding: 0.25rem 0.75rem;
-    background-color: #10475C;
+    background-color: #0a2d3b;
     border: none;
     margin-bottom: 0.5vh;
     cursor: pointer;
