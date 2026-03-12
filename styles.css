@@ -100,7 +100,7 @@ button + p {
 button + p > a {
     text-decoration: none;
     font-family: "Fraunces", serif;
-    color: #6c9ca8;
+    color: #3E717D;
     font-weight: 600;
 }
 
@@ -171,7 +171,7 @@ header {
 }
 
 header > #subtitle {
-    font-family: "fraunces-light";
+    font-family: "fraunces", serif;
     font-weight: 600;
     font-size: 1.30rem;
     line-height: 1;
@@ -195,13 +195,11 @@ header > #welcome {
     padding-right:0;
 }
 
-#image-container {
-    display: flex;
-    flex-direction: column;
+.image{
     position: relative;
 }
 
-#image {
+.image img {
     position: relative;
     height: 100vh;
     width: clamp(20vw, auto, 30vw);
@@ -209,19 +207,34 @@ header > #welcome {
     z-index: 0;
 }
 
-#image-caption {
+.image p {
     position: absolute;
     font-size: 0.90rem;
     text-align: center;
-    bottom: 0;
+    bottom: 1vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     color: #A8C3D7;
-    background-color: rgba(1, 1, 1, 0.3);
+    background-color: rgba(1, 1, 1, 0.2);
     text-decoration: none;
     font-family: 'fraunces-normal';
     z-index: 1;
 }
 
-#image-caption a  {
+.image a {
     color: #A8C3D7;
 
+}
+
+.image #logo{
+    z-index: 3;
+    position: absolute;
+    top: 30vh;
+    font-size: 10rem;
+    text-shadow: 2px 2px 3px 15px #E6E9E2, 2px 2px 3px 5px #E6E9E2, 2px 2px 3px 25px #E6E9E2;;;
+    color:rgba(236, 236, 236, 0.6);
+    background-color: linear-gradient(0deg,rgba(1, 1, 1, 0.859), rgba(1, 1, 1, 1));
+    box-shadow: -5px 0px 15px 15px rgba(1, 1, 1, 0.2);
 }
